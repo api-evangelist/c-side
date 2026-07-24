@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://cside.com/.well-known/
+description: >-
+  Results of probing the /.well-known/ discovery surface for the cside base hosts
+  (cside.com marketing host, docs.cside.com). cside.dev 301-redirects to
+  cside.com. Only a real security.txt (RFC 9116) was found and saved verbatim.
+  Status is the HTTP code observed at fetch time on 2026-07-18.
+hosts:
+  - host: https://cside.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        type: text/plain
+        file: c-side-security.txt
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://docs.cside.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404

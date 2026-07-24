@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cside.com/integrating/cli-integration
+description: >-
+  cside ships a first-party CLI (@cside.dev/cli) used to integrate cside into
+  static / statically-generated sites (SSG). It rewrites the built HTML output to
+  inject the team-scoped cside script hosting domain. It is a single-command tool
+  (no subcommands) driven by flags; the binary itself is catalogued in
+  packages/c-side-packages.yml.
+package: "@cside.dev/cli"
+install:
+  - npm i @cside.dev/cli
+  - npx @cside.dev/cli
+invocation: npx @cside.dev/cli [options]
+commands:
+  - name: (default)
+    description: Scan a build output directory and inject the cside team-scoped script hosting into the HTML files.
+flags:
+  - flag: "--version"
+    description: Display version information.
+  - flag: "-d, -f, --dir"
+    description: Directory containing the HTML files to process (defaults to .next or dist).
+  - flag: "-s, --silent"
+    description: Suppress output of processed files.
+  - flag: "-t, --team, --team-id"
+    description: Inject team-scoped script hosting using the given team ID.
+  - flag: "--fingerprint"
+    description: Use the csidefd.com hosting domain instead of the default csidetm.com.
+  - flag: "-h, --help"
+    description: Display help information.
+notes: >-
+  The documentation does not describe an API-key/token authentication step for the
+  CLI; script hosting is scoped by the --team-id value.

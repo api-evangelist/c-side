@@ -1,7 +1,22 @@
 aid: c-side
 name: c/side
-description: c/side is a company surfaced as a portfolio company of uncork-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  c/side (cside) is a client-side security platform that detects script attacks,
+  AI agents, account takeover, and fraud at the browser layer. It provides active
+  runtime detection that watches what third-party scripts, users, and agents
+  actually do as they execute in the live browser session, in real time, rather
+  than relying on static scans or block-lists, and it automates PCI DSS 4.0.1
+  requirements 6.4.3 and 11.6.1 (validated by a VikingCloud QSA). cside deploys as
+  a single JavaScript snippet with no proxy and no DNS changes, and was the first
+  client-side security product with integrated AI analysis. The platform protects
+  websites from malicious third-party scripts, e-skimming, Magecart, and supply
+  chain attacks, and adds device fingerprinting (102+ signals), VPN/bot/AI-agent
+  detection, chargeback evidence, and privacy monitoring for GDPR, CCPA, and HIPAA.
+  Founded in 2024 and backed by Uncork Capital, cside integrates via a CLI, Next.js
+  and Vite plugins, a manual script tag, and Salesforce Lightning, and sends
+  security alerts through webhook, S3, and Jira/Linear notification endpoints. cside
+  publishes an llms.txt, a public read-only MCP server, and a Trust Center covering
+  SOC 2 Type II, PCI SAQ-D, and ISO 27001.
 url: https://raw.githubusercontent.com/api-evangelist/c-side/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +24,32 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://og.cside.com/?title=cside%2C%20Client-Side%20Security%20%26%20Browser%20Fraud%20Prevention
 tags:
 - Company
+- Security
+- Client-Side Security
+- Application Security
+- Fraud Prevention
+- PCI DSS Compliance
+- Device Fingerprinting
+- Bot Detection
+- Web Security
+- Script Monitoring
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +58,63 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://cside.dev
+  url: https://cside.com
+- type: DeveloperPortal
+  url: https://docs.cside.com
+- type: Documentation
+  url: https://docs.cside.com
+- type: GettingStarted
+  url: https://docs.cside.com/quickstart
+- type: Blog
+  url: https://cside.com/blog
+- type: Pricing
+  url: https://cside.com/pricing
+- type: SignUp
+  url: https://dash.cside.com/auth/signup
+- type: PrivacyPolicy
+  url: https://cside.com/privacy-policy
+- type: HelpCenter
+  url: https://cside.com/faq
+- type: GitHubOrganization
+  url: https://github.com/client-side-dev
+- type: MCPServer
+  url: mcp/c-side-mcp.yml
+- type: LLMsTxt
+  url: llms/c-side-llms.txt
+- type: Packages
+  url: packages/c-side-packages.yml
+- type: SDKs
+  url: packages/c-side-packages.yml
+- type: CLI
+  url: cli/c-side-cli.yml
+- type: Components
+  url: components/c-side-components.yml
+- type: WellKnown
+  url: well-known/c-side-well-known.yml
+- type: SecurityTxt
+  url: well-known/c-side-security.txt
+- type: Webhooks
+  url: asyncapi/c-side-webhooks.yml
+- type: ChangeLog
+  url: changelog/c-side-changelog.yml
+- type: Lifecycle
+  url: lifecycle/c-side-lifecycle.yml
+- type: StatusPage
+  url: https://status.cside.com
+- type: Conformance
+  url: conformance/c-side-conformance.yml
+- type: Compliance
+  url: https://trust.cside.com
+- type: TrustCenter
+  url: security/c-side-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/c-side-vulnerability-disclosure.yml
+- type: Security
+  url: https://cside.com/security
+- type: DomainSecurity
+  url: security/c-side-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

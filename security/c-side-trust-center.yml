@@ -1,0 +1,19 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.cside.com / https://cside.com/security / https://cside.com/llms.txt
+description: >-
+  cside operates a public Trust Center at https://trust.cside.com. The live host is
+  fronted by CloudFront and returned 403 to automated fetchers on 2026-07-18, so
+  certifications below are captured from the cside llms.txt Trust Center summary and
+  the cside security page rather than scraped from the portal body.
+url: https://trust.cside.com
+certifications:
+  - SOC 2 Type II
+  - PCI DSS (SAQ-D AOC)
+  - ISO 27001 (in progress)
+  - GDPR
+evidence:
+  - source: https://cside.com/llms.txt
+    detail: "Trust Center: SOC 2 Type II audit reports, PCI SAQ-D AOC, and ISO 27001 progress"
+  - source: https://cside.com/security
+    detail: SOC 2 Type II, PCI DSS, GDPR, ISO 27001 listed on the security page

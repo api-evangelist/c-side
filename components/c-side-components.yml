@@ -1,0 +1,38 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cside.com/integrating-quick-start
+description: >-
+  cside is delivered as a client-side, embeddable surface: a single JavaScript
+  snippet that loads into the browser to monitor and secure third-party scripts in
+  real time, plus framework-specific loaders that inject that snippet at build/render
+  time. These are client-side integration components (distinct from server-side
+  SDKs). cside deploys with no proxy and no DNS changes.
+families:
+  - name: cside script snippet
+    kind: browser-script
+    description: >-
+      The core cside client-side security snippet, added directly to a site as a
+      script tag; hosted on the team-scoped domain (csidetm.com, or csidefd.com for
+      Fingerprint/device intelligence). Runs active runtime detection in the live
+      browser session.
+    docs: https://docs.cside.com/integrating/cside-script
+  - name: "@cside.dev/next"
+    kind: framework-plugin
+    loader: "@cside.dev/next"
+    description: Next.js component that injects the cside snippet into a Next.js app.
+    docs: https://docs.cside.com/integrating/nextjs-integration
+  - name: "@cside.dev/vite"
+    kind: framework-plugin
+    loader: "@cside.dev/vite"
+    description: Vite plugin that injects the cside snippet into React, Vue, and Svelte apps.
+    docs: https://docs.cside.com/integrating/vite-integration
+  - name: Salesforce Lightning integration
+    kind: platform-integration
+    description: Integration path for adding cside to Salesforce Lightning sites.
+    docs: https://docs.cside.com/integrating/salesforce-lightning
+  - name: Scan Mode (crawler)
+    kind: agentless
+    description: >-
+      Enterprise crawler-based onboarding that monitors scripts with no code
+      changes to the site.
+    docs: https://docs.cside.com/integrating/scan-mode-setup

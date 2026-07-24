@@ -1,0 +1,43 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.cside.com/notification-endpoints/webhooks
+spec_type: Webhooks
+description: >-
+  cside documents an outbound webhook surface for delivering security alerts to
+  notification endpoints. cside does not publish an AsyncAPI document; this is the
+  captured webhook catalog. Webhooks can be delivered as raw JSON or pre-formatted
+  for Slack and Discord. cside also supports S3 bucket and Jira/Linear notification
+  endpoints (see docs.cside.com/notification-endpoints).
+delivery_formats:
+  - json
+  - slack
+  - discord
+security:
+  signature_header: x-cside-signature
+  algorithm: HMAC SHA256
+  detail: >-
+    Every webhook request includes an x-cside-signature header containing an
+    HMAC-SHA256 hash of the request body signed with the secret provided at webhook
+    setup. cside recommends always verifying the signature to confirm the request
+    came from cside and to prevent replay attacks. HMAC verification examples are
+    provided in JavaScript, Rust, Go, Elixir, and Python.
+events:
+  - name: alert.created
+    description: A security alert was generated.
+    payload:
+      event: "alert.created"
+      sent_at: ISO 8601 timestamp
+      domain_id: Domain identifier
+      destination_id: Endpoint destination identifier
+      data:
+        description: AlertCreatedObject
+        fields:
+          type: "Alert category: URL | HASH | IP | DOMAIN | HOSTNAME"
+          domain: The domain triggering the alert
+          target: The value corresponding to the type
+          action: "Currently set to: alert"
+endpoints:
+  - webhook (JSON / Slack / Discord)
+  - s3-bucket
+  - jira
+  - linear

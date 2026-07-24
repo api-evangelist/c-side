@@ -1,0 +1,45 @@
+generated: '2026-07-18'
+method: searched
+source: https://cside.com/changelog
+description: >-
+  cside publishes a dated product changelog. There is no semantic version scheme;
+  entries are date-stamped product updates and feature releases. Recent window
+  captured on 2026-07-18 (most-recent first).
+scheme: dated
+current_version: null
+url: https://cside.com/changelog
+entries:
+  - date: '2026-05-29'
+    title: We now detect when bots try to hide
+    type: addition
+    highlight: >-
+      Detection for bots that spoof the browser's automation properties to avoid
+      giving themselves away.
+  - date: '2026-05-29'
+    title: Cmd+K command palette
+    type: addition
+    highlight: A keyboard-first command palette added to the dashboard.
+  - date: '2026-05-29'
+    title: Fingerprint Dashboard is now generally available
+    type: addition
+    highlight: The Fingerprint Dashboard is out of beta and open to all customers.
+  - date: '2026-05-29'
+    title: Onboarding that matches your use case
+    type: addition
+    highlight: New teams get a guided setup flow based on their intended use case.
+  - date: '2026-03-18'
+    title: JA4 TLD fingerprinting
+    type: addition
+    highlight: Per-connection features based on JA3/JA4 TLS fingerprinting.
+  - date: '2026-03-17'
+    title: New Notifications Engine supporting Linear and Jira
+    type: addition
+    highlight: Connect cside to Linear and Jira to automatically create issues from alerts.
+  - date: '2026-02-18'
+    title: 14-Day Free Trial Self-Service
+    type: addition
+    highlight: Self-serve 14-day free trial for all business plan tiers.
+  - date: '2026-01-20'
+    title: Script Ad Injection Detection
+    type: addition
+    highlight: New detections for ad injection via client-side scripts.

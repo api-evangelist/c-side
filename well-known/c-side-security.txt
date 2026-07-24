@@ -1,0 +1,8 @@
+# cside (Client-side Development, Inc.) — security contact
+# Report a vulnerability or security concern using the contacts below.
+Contact: mailto:hello@cside.com
+Contact: https://cside.com/security
+Expires: 2027-06-10T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://cside.com/.well-known/security.txt
+Policy: https://cside.com/security

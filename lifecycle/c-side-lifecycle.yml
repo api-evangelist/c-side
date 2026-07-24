@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.cside.com / https://cside.com/pricing / https://cside.com/changelog
+description: >-
+  Operational lifecycle posture for cside. cside publishes a dated changelog and a
+  hosted status page, and offers a 99.9% uptime SLA on the Enterprise plan. No
+  public API versioning or deprecation policy was found (cside exposes no public
+  REST API surface; integration is via a client-side snippet and framework plugins).
+versioning:
+  scheme: dated-changelog
+  docs: https://cside.com/changelog
+status_page: https://status.cside.com
+sla:
+  uptime_target: "99.9%"
+  scope: Enterprise plan
+  source: https://cside.com/pricing
+deprecation: null
+deprecated_operations: []

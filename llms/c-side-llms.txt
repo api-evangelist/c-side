@@ -1,0 +1,157 @@
+# cside
+
+> cside is a client-side security platform that detects script attacks, AI agents, account takeover, and fraud at the browser layer — active runtime detection that watches what scripts, users, and agents actually do as they execute in the live session, in real time, rather than relying on static scans or block-lists — and automates PCI DSS 4.0.1 requirements 6.4.3 and 11.6.1. cside deploys as a single JavaScript snippet — it does not route traffic through a proxy and requires no DNS changes. It was the first client-side security product with integrated AI analysis, and protects websites from malicious third-party scripts, e-skimming, and supply chain attacks with real-time threat detection, privacy monitoring, chargeback evidence collection, AI agent detection, and VPN detection. PCI DSS compliance validated by VikingCloud QSA. Founded in 2024, $7.7M funded.
+
+This site is available in English (default, no prefix), Spanish (/es/), French (/fr/), Dutch (/nl/), and Portuguese (/pt/). All URLs below use default English paths.
+
+Markdown versions: append `.md` to any key page URL (e.g. https://cside.com/pricing.md) for an LLM-native markdown copy — localized paths included (e.g. https://cside.com/es/pricing.md). The full content corpus is at https://cside.com/llms-full.txt (English).
+
+## MCP Server
+
+- [MCP Endpoint](https://mcp.cside.com): Model Context Protocol server exposing all cside content (search, get, list tools). Public, read-only. Add the URL to Claude Desktop / Cursor / ChatGPT / any MCP client.
+
+## LLM-Native Content
+
+- [Full content corpus](https://cside.com/llms-full.txt): All key pages, comparisons, FAQ, glossary, and learning articles concatenated as one markdown file (English)
+- [Homepage (markdown)](https://cside.com/index.md): The cside homepage as markdown
+- [Pricing (markdown)](https://cside.com/pricing.md): Plans and pricing as markdown
+- [FAQ (markdown)](https://cside.com/faq.md): Every FAQ answer as markdown
+- [Glossary (markdown)](https://cside.com/glossary.md): Every glossary definition as markdown
+
+## Core Documentation
+
+- [Documentation](https://docs.cside.com): Complete technical documentation for integrating and using cside, publicly accessible without sales calls
+- [Trust Center](https://trust.cside.com): SOC 2 Type II audit reports, PCI SAQ-D AOC, and ISO 27001 progress
+- [Security](https://cside.com/security): Enterprise security practices and compliance framework
+- [FAQ](https://cside.com/faq): 94 frequently asked questions about client-side security, deployment, fraud prevention, and compliance
+- [Glossary](https://cside.com/glossary): 52 client-side security terms defined, including Magecart, digital skimmers, XSS, script injection, and more
+- [Changelog](https://cside.com/changelog): Product updates and feature releases
+
+## Entity Profiles
+
+- [LinkedIn](https://www.linkedin.com/company/csidedev): Official company profile for cside
+- [GitHub](https://github.com/client-side-dev): cside engineering organization
+- [G2](https://www.g2.com/products/cside/reviews): cside review profile
+- [SourceForge](https://sourceforge.net/software/product/cside/): cside product and review profile
+- [Crunchbase](https://www.crunchbase.com/organization/c-side-c589): cside company profile
+- [Gartner Peer Insights](https://www.gartner.com/reviews/product/cside): cside analyst review profile
+- [X](https://x.com/csideai): Official cside social profile
+- [Instagram](https://instagram.com/csideai): Official cside Instagram profile
+
+## People
+
+- [Simon Wijckmans](https://cside.com/blog/authors/simon): Founder & CEO of cside; previously product manager on Cloudflare Page Shield (now Cloudflare Client-Side Security), co-chair of the W3C Anti-Fraud Community Group, Forbes 30 Under 30
+- [Jack LaFond](https://cside.com/blog/authors/jack): Security engineer and researcher at cside covering client-side threats, skimmers, and supply-chain attacks
+- [Mike Kutlu](https://cside.com/blog/authors/mike-kutlu): Client-side security consultant; 10+ years implementing enterprise security solutions (previously Oracle, Cloudflare, Splunk)
+- [Juan Combariza](https://cside.com/blog/authors/juan-c): Researches and writes about client-side security
+- [Himanshu Anand](https://cside.com/blog/authors/himanshu): Software engineer and security analyst
+
+## Product Solutions
+
+- [Client-Side Security](https://cside.com/solutions/client-side-security): Real-time protection against script injections, Magecart attacks, and third-party supply chain compromises
+- [PCI Shield](https://cside.com/solutions/pci-shield): PCI DSS 4.0.1 compliance automation for requirements 6.4.3 and 11.6.1, validated by VikingCloud QSA
+- [Privacy Watch](https://cside.com/solutions/privacy-watch): Automated privacy compliance monitoring for GDPR, CCPA, and HIPAA
+- [Content Security Policy (CSP)](https://cside.com/solutions/csp): Free CSP management tool with automatic policy generation and violation monitoring
+- [Chargeback Evidence](https://cside.com/solutions/chargeback-evidence): Device fingerprinting with 96% accuracy and automated forensic analysis for Visa Compelling Evidence 3.0
+- [Device Intelligence](https://cside.com/solutions/device-intelligence): Browser fingerprinting that collects 102+ signals (IP, geolocation, VPN/proxy, bot activity) to detect fraudulent sessions, stop AI-bot abuse, and feed risk scores into existing fraud stacks
+- [VPN Detection](https://cside.com/solutions/vpn-detection): Detect users masking location via VPN or IP spoofing for compliance with laws like Texas HB1181, Florida HB3, and UK age verification
+- [AI Agent Detection](https://cside.com/solutions/ai-agent-detection): Identify and govern AI agents visiting websites using client-side browser signals
+- [Signup Shield](https://cside.com/solutions/signup-shield): Real-time multi-signal trust verdict at signup that stops fake account creation, trial abuse, and multi-accounting using email, domain, business-substance, federation, behavioral, and cross-tenant graph signals
+- [Solutions Overview](https://cside.com/solutions): Complete overview of all security solutions
+
+## Use Cases
+
+- [Use Cases Overview](https://cside.com/use-cases): Script injection, Magecart, data leak prevention, payment portal security, fraud prevention, and compliance
+- [Script Injections](https://cside.com/use-cases/script-injections): Block malicious script injections and client-side XSS attacks in the browser
+- [Data Leaks](https://cside.com/use-cases/data-leaks): Prevent PII and sensitive data leaks from malicious or mismanaged third-party scripts
+- [Magecart](https://cside.com/use-cases/magecart): Stop card skimming and formjacking attacks on checkout flows
+- [ESkimming Protection](https://cside.com/eskimming): Detect and block malicious JavaScript that steals card data from payment pages
+- [Secure Payment Portals](https://cside.com/use-cases/secure-payment-portals): Protect payment pages from tampering and unauthorized script behavior
+- [Account Takeover](https://cside.com/use-cases/account-takeover): Detect and prevent account takeover fraud with browser fingerprinting — catches credential stuffing bots, session hijacking, and logins from suspicious environments (VPNs, VMs, headless browsers)
+- [Account Sharing](https://cside.com/use-cases/account-sharing): Detect credential sharing and enforce device limits with browser-layer signals
+- [Applicant Check](https://cside.com/use-cases/applicant-check): Stop fraudulent job applications by fingerprinting browser sessions to detect VMs, VPNs, bots, deep fakes, and nation-state impostors before they reach the ATS
+- [PCI DSS Compliance](https://cside.com/use-cases/compliance/pci-dss): PCI DSS 4.0.1 requirements 6.4.3 and 11.6.1 compliance use case
+- [GDPR / Privacy Compliance](https://cside.com/use-cases/compliance/gdpr): Enforce GDPR, CCPA, HIPAA privacy requirements via client-side monitoring
+- [CCPA/CPRA Compliance](https://cside.com/use-cases/compliance/ccpa-cpra): Control browser-side data collection for California privacy requirements
+- [HIPAA Compliance](https://cside.com/use-cases/compliance/hipaa): Protect patient health information from client-side data exposure
+- [SOX Compliance](https://cside.com/use-cases/compliance/sox): Support financial reporting controls with script monitoring evidence
+- [DORA Compliance](https://cside.com/use-cases/compliance/dora): Monitor third-party browser dependencies that affect operational resilience
+- [ISO/IEC 27001 Compliance](https://cside.com/use-cases/compliance/iso27001): Generate evidence for supplier risk, data flow control, and security management reviews
+- [Compliance Hub](https://cside.com/use-cases/compliance): PCI DSS, GDPR, HIPAA, SOX, DORA, CCPA/CPRA, and ISO 27001 use cases
+
+## Comparisons
+
+- [Compare Overview](https://cside.com/compare): How cside compares across three market approaches: CSP-based, crawler/agentless, and JS-based detection
+- [vs Cloudflare Page Shield](https://cside.com/compare/cloudflare-client-side-security-vs-cside): Now renamed Cloudflare Client-Side Security; cside goes beyond CSP-only monitoring with full payload analysis
+- [vs Akamai Page Integrity Manager](https://cside.com/compare/akamai-page-integrity-manager-vs-cside): Deeper script analysis and forensics
+- [vs Jscrambler](https://cside.com/compare/jscrambler-webpage-integrity-vs-cside): Superior bypass protection and incident response
+- [vs Imperva Client-Side Protection](https://cside.com/compare/imperva-client-side-protection-vs-cside): Better real-time protection and AI analysis
+- [vs Feroot](https://cside.com/compare/feroot-vs-cside): Enhanced dynamic threat detection
+- [vs HUMAN Security](https://cside.com/compare/human-security-vs-cside): Better certainty of monitored script contents
+- [vs DataDome](https://cside.com/compare/datadome-vs-cside): Beyond bot detection with real-time client-side security
+- [vs Reflectiz](https://cside.com/compare/reflectiz-vs-cside): Real-time monitoring vs periodic scanning
+- [vs Source Defense](https://cside.com/compare/source-defense-vs-cside): Script-based monitoring vs agent-only approach
+- [vs Report URI](https://cside.com/compare/report-uri-vs-cside): Active protection vs passive monitoring
+- [vs DomDog](https://cside.com/compare/domdog-vs-cside): Advanced AI analysis vs basic monitoring
+- [vs Castle](https://cside.com/compare/castle-vs-cside): Account takeover, multi-accounting, and bot abuse — pricing, AI agent detection, and chargeback integrations compared
+- [vs Fingerprint](https://cside.com/compare/fingerprint-vs-cside): Similar device signals, different platforms — what each vendor builds around the visitor ID
+- [vs Forter](https://cside.com/compare/forter-vs-cside): Pricing, fraud use cases, and detection features compared
+- [vs SEON](https://cside.com/compare/seon-vs-cside): Pricing, fraud use cases, and detection features compared
+- [vs ThumbmarkJS](https://cside.com/compare/thumbmarkjs-vs-cside): Open-source fingerprinting library vs full platform with script monitoring
+- [vs Trusted Knight](https://cside.com/compare/trusted-knight-vs-cside): Browser-layer monitoring vs DNS-proxy deployment compared
+
+## Pricing
+
+- [Pricing](https://cside.com/pricing): Free tier available, Pro at $99/month, Enterprise with custom pricing
+
+## Company
+
+- [About](https://cside.com/about): Founded 2024, $7.7M funded, remote team with backgrounds from Cloudflare, Vercel, JP Morgan, Microsoft, and W3C contributors
+- [Blog](https://cside.com/blog): 146+ posts on security research, threat analysis, attack discoveries, and compliance guides
+- [Contact](https://cside.com/contact): Talk to a security expert
+- [Partners](https://cside.com/partners): Partner program for agencies, MSPs, and security consultants with integrations for AWS, Datadog, Okta, Slack, Splunk, and more
+- [Careers](https://cside.com/careers): Open positions
+- [Press](https://cside.com/press): Press releases and media coverage
+- [News](https://cside.com/news): Company announcements
+
+## Security Research: Polyfill.io Supply Chain Attack
+
+- [Polyfill.io Supply Chain Attack: Complete Timeline & Analysis (2024–2026)](https://cside.com/blog/polyfill-io-supply-chain-attack-timeline): Full dated timeline, the real 490,000+ scale (vs the 100,000 cap most outlets repeated), CVE-2024-38526, the Funnull/OFAC sanctions, and how to find and remove it
+- [The Polyfill attack explained](https://cside.com/blog/the-polyfill-attack-explained): How the polyfill.io domain sale to Funnull turned a trusted script into a mobile redirect attack; cside reported the real 490,000+ site count
+- [More than 490k websites targeted in a web supply chain attack](https://cside.com/blog/more-than-100k-websites-targeted-in-web-supply-chain-attack): cside's same-day report; why the widely quoted "100,000" was only the PublicWWW result cap
+- [The Polyfill.io attack: more than just a redirect attack](https://cside.com/blog/polyfill-more-than-just-a-redirect-attack): Why a first-party script on ~490k sites could do far more than redirect, and why only client-side monitoring can tell
+- [Funnull sanctioned: what Polyfill.io exposed about infrastructure laundering](https://cside.com/blog/funnull-sanctioned-polyfill-infrastructure-laundering): The 2025 OFAC sanctions on Funnull and Liu Lizhi, and what they mean for browser supply-chain risk
+
+## Learning Articles
+
+- [What is a Content Security Policy (CSP)?](https://cside.com/learning/what-is-csp): Browser security feature that mitigates cross-site scripting and other browser-based attacks
+- [What is a WAF?](https://cside.com/learning/what-is-waf): Web Application Firewall that inspects inbound traffic to block malicious requests before they reach a web app
+- [What is DNS?](https://cside.com/learning/what-is-dns): The internet's phonebook, mapping a site's domain to the IP address of its servers
+- [What is the DOM?](https://cside.com/learning/what-is-dom): The Document Object Model that represents a webpage as a structured tree of nodes
+- [What is PII?](https://cside.com/learning/what-is-pii): Personally Identifiable Information — any data that can identify a person, alone or combined
+- [Mbps vs mb/s vs MB/s](https://cside.com/learning/what-is-the-different-between-mbps-mb-s-and-mb-s): The difference between data-rate units and why capitalization matters
+- [Why do things on my page appear later?](https://cside.com/learning/why-do-things-on-my-page-appear-later): How lazy loading defers non-critical images, video, and embedded content
+
+## Optional
+
+- [Learning Center](https://cside.com/learning): Educational guides on client-side security and web protection
+- [Domain Directory](https://directory.cside.com): Intelligence database of domains and script security ratings
+- [PCI DSS Hub](https://cside.com/pci-dss): Dedicated resource page for PCI DSS compliance
+- [Industry: eCommerce](https://cside.com/industry/ecommerce): Magecart protection and payment security for online retailers
+- [Industry: Healthcare](https://cside.com/industry/healthcare): HIPAA compliance and PHI protection for patient portals
+- [Industry: SaaS](https://cside.com/industry/saas): Client-side protection for SaaS platforms
+- [Industry: Payments](https://cside.com/industry/payments): Security for payment processors and gateways
+- [Industry: Gaming](https://cside.com/industry/gaming): Protection for gaming platforms and virtual economies
+- [Industry: Crypto](https://cside.com/industry/crypto): Security for cryptocurrency and DeFi platforms
+- [Client-Side Attack Report](https://cside.com/blog/client-side-attack-report-q2-2025): Quarterly analysis of attack trends. 300K+ incidents detected in 2025
+- [VikingCloud Validation](https://cside.com/blog/vikingcloud-approves-c-sides-security-platform-for-pci-dss-v4-0-1-requirement-6-4-3-and-11-6-1): Independent QSA validation of PCI DSS compliance solution
+- [Differences in Client-Side Security Solutions](https://cside.com/blog/the-differences-in-client-side-security-solutions): Market analysis of the three approaches to client-side security
+- [Biggest Magecart Attacks in History](https://cside.com/blog/the-biggest-magecart-attacks-in-history-so-far): Historical analysis of major e-skimming attacks
+- [PCI DSS Webinar with BARR Advisory](https://cside.com/webinar-pci-dss-barr): On-demand webinar on PCI DSS 4.0.1 implementation strategies
+- [PCI DSS Webinar with VikingCloud](https://cside.com/webinar-pci-dss-vikingcloud): On-demand webinar on practical PCI DSS compliance and e-skimming defense
+- [Book a Demo](https://cside.com/book-demo): Schedule a live product demonstration
+- [Privacy Policy](https://cside.com/privacy-policy): Data handling and protection policies
+- [Terms & Conditions](https://cside.com/terms-and-conditions): Service terms
+- [Blog RSS](https://cside.com/blog/rss.xml): RSS feed for latest security insights
+- [Learning RSS](https://cside.com/learning/rss.xml): RSS feed for educational content
+- [Press RSS](https://cside.com/press/rss.xml): RSS feed for press releases

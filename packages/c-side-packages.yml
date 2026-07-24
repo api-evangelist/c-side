@@ -1,0 +1,46 @@
+generated: '2026-07-18'
+method: searched
+source: https://registry.npmjs.org / https://docs.cside.com/integrating-quick-start
+description: >-
+  First-party client integration libraries published by cside under the
+  @cside.dev npm scope, plus related packages found on npm. cside has no
+  server-side REST SDK (there is no public REST API); these are browser/build-time
+  integration packages that install the cside client-side security snippet. The
+  CLI command surface is detailed in cli/c-side-cli.yml.
+packages:
+  - language: javascript
+    registry: npm
+    name: "@cside.dev/cli"
+    url: https://www.npmjs.com/package/@cside.dev/cli
+    install: npm i @cside.dev/cli
+    description: CLI tool for cside security (injects team-scoped script hosting into static/SSG build output).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cside.dev/next"
+    url: https://www.npmjs.com/package/@cside.dev/next
+    install: npm i @cside.dev/next
+    version: 1.2.2
+    description: Next.js component for integrating cside.
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cside.dev/vite"
+    url: https://www.npmjs.com/package/@cside.dev/vite
+    install: npm i @cside.dev/vite
+    description: Vite plugin for integrating cside (React, Vue, Svelte).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@cside.dev/webhooks"
+    url: https://www.npmjs.com/package/@cside.dev/webhooks
+    install: npm i @cside.dev/webhooks
+    description: Interface with webhooks handled by cside (alert.created events, HMAC signature verification).
+    official: true
+  - language: javascript
+    registry: npm
+    name: cside-sdk
+    url: https://www.npmjs.com/package/cside-sdk
+    install: npm i cside-sdk
+    description: "cside AI Assistant SDK (unscoped; first-party attribution unverified)."
+    official: false
