@@ -1,0 +1,111 @@
+{
+  "endpoint": "https://mcp.cside.com",
+  "captured": "2026-10-20",
+  "method": "initialize + tools/list (anonymous, no tool called; roadmap#992)",
+  "protocol_version": "2025-06-18",
+  "server_info": {
+    "name": "cside-content",
+    "version": "0.1.0"
+  },
+  "result": {
+    "tools": [
+      {
+        "name": "search",
+        "description": "Full-text search across cside.com marketing-site pages (blog, comparisons, solutions, glossary) and docs.cside.com documentation. Read-only, public content — not the cside product API. Returns top matches with URL, title, type, locale, and a context snippet.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "Search query"
+            },
+            "type": {
+              "type": "string",
+              "enum": [
+                "blog",
+                "compare",
+                "solution",
+                "use_case",
+                "industry",
+                "glossary",
+                "article",
+                "docs",
+                "page"
+              ]
+            },
+            "locale": {
+              "type": "string",
+              "enum": [
+                "en",
+                "es",
+                "fr",
+                "nl",
+                "pt"
+              ]
+            },
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 50
+            }
+          },
+          "required": [
+            "query"
+          ]
+        }
+      },
+      {
+        "name": "get",
+        "description": "Fetch the full markdown body of one cside.com or docs.cside.com page by canonical URL or cside:// resource URI.",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "url": {
+              "type": "string",
+              "description": "Canonical cside.com URL or cside:// URI"
+            }
+          },
+          "required": [
+            "url"
+          ]
+        }
+      },
+      {
+        "name": "list",
+        "description": "List all content entries of a given type (e.g. every competitor comparison, every solution).",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": [
+                "blog",
+                "compare",
+                "solution",
+                "use_case",
+                "industry",
+                "glossary",
+                "article",
+                "docs",
+                "page"
+              ]
+            },
+            "locale": {
+              "type": "string",
+              "enum": [
+                "en",
+                "es",
+                "fr",
+                "nl",
+                "pt"
+              ]
+            }
+          },
+          "required": [
+            "type"
+          ]
+        }
+      }
+    ]
+  }
+}
